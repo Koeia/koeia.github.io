@@ -1,0 +1,32 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #3b3758;
+}
+
+header {
+    background-color: #aa5376;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    width: 80px;
+    font-size: 12px;
+    align-self: center;
+}
+
+a {
+    color: #fff;
+}

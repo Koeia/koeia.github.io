@@ -2,11 +2,11 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #3b3758;
+    background-color: #707793;
 }
 
 header {
-    background-color: #aa5376;
+    background-color: #2e3047;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -16,17 +16,25 @@ header {
 nav {
     margin: 0;
     padding: 20px 0;
+    box-align: center;
+
 }
 
 nav li {
-    color: #fff;
+    color: #3bba9c;
     display: inline-block;
     font-weight: 600;
     width: 80px;
     font-size: 12px;
-    align-self: center;
+    box-align: center;
 }
 
 a {
-    color: #fff;
+    color: #3bba9c;
+}
+
+#admin {
+    text-align: right !important;
+    display: contents;
+
 }

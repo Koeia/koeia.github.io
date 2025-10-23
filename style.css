@@ -91,7 +91,7 @@ button:hover {
 /* Avatar image */
 img.avatar {
   width: 40%;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 /* Add padding to containers */

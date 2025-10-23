@@ -6,6 +6,17 @@ html, body{
     font-family: monospace;
 }
 
+.indexh1 {
+  font-size: medium;
+  color: #ccc;
+  margin: 20px;
+  padding: 20px;
+  line-height: normal;
+  display: block;
+  text-align: center;
+  font-size: larger;
+}
+
 #aboutme{
   font-size: medium;
   color: #ccc;
@@ -15,6 +26,10 @@ html, body{
   display: block;
 }
 
+.indexgif {
+  display: flex;
+  justify-content: center;
+}
 
 ul {
   list-style-type: none;

@@ -5,52 +5,43 @@ html, body{
     background-color: #707793;
 }
 
-header {
-    background-color: #2e3047;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    flex: auto;
-}
-
-
-nav {
-    margin: 0;
-    padding: 20px 0;
-    box-align: center;
-    flex: auto;
-
-}
-
-.abtme {
+#aboutme{
   font-size: medium;
-  color: #3bba9c;
-  top: 80px;
-  display: inline-block;
+  color: #ccc;
+  margin: auto;
+  line-height: normal;
+  display: block;
+
 }
 
-nav li {
+ul {
+  list-style-type: none;
+  background-color: #2e3047;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
     color: #3bba9c;
-    display: inline-block;
+    display: block;
     font-weight: 600;
-    width: 80px;
+    text-decoration: none;
+    padding: 14px 16px;
     font-size: 12px;
-    box-align: center;
+}
+
+ul li a:hover {
+  background-color: #111;
 }
 
 #back {
     font-weight: bolder;
     font-size: large;
-}
-
-a {
-    color: #3bba9c;
-}
-
-#admin {
-    text-align: right !important;
-    display: contents;
-
 }
 
  /* Bordered form */

@@ -3,18 +3,18 @@ html, body{
     margin: 0;
     padding: 0;
     background-color: #707793;
+    font-family: monospace;
 }
 
 #aboutme{
   font-size: medium;
   color: #ccc;
-  margin: auto;
+  margin: 20px;
+  padding: 20px;
   line-height: normal;
   display: block;
-  padding: 10px;
-  margin: auto;
-
 }
+
 
 ul {
   list-style-type: none;

@@ -26,6 +26,7 @@ nav {
   font-size: medium;
   color: #3bba9c;
   top: 40px;
+  display: inline-block;
 }
 
 nav li {

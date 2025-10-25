@@ -17,7 +17,7 @@ html, body{
   font-size: larger;
 }
 
-#aboutme{
+#aboutme, .projects{
   font-size: medium;
   color: #ccc;
   margin: 20px;

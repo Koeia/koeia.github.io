@@ -48,7 +48,7 @@ ul {
 }
 
 ul li {
-  float: left;
+    float: left;
 }
 
 ul li a {
@@ -67,6 +67,7 @@ ul li a:hover {
 #back {
     font-weight: bolder;
     font-size: large;
+
 }
 
  /* Bordered form */

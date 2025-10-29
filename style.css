@@ -54,18 +54,23 @@ ul li {
 ul li a {
     color: #3bba9c;
     display: block;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     padding: 14px 16px;
     font-size: 12px;
 }
 
 ul li a:hover {
-  background-color: #111;
+  background-color:  rgba(0, 0, 0, 0.245);
+}
+
+ul li a:active {
+  background-color: rgba(0, 0, 0, 0.53);
+  font-weight: 900;
 }
 
 .currenttab {
-  font-weight: lighter;
+  font-weight: 900;
 }
 
 #back {

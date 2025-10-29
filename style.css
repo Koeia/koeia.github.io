@@ -64,6 +64,10 @@ ul li a:hover {
   background-color: #111;
 }
 
+.currenttab {
+  font-weight: lighter;
+}
+
 #back {
     font-weight: bolder;
     font-size: large;

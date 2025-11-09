@@ -1,0 +1,40 @@
+* {
+    background-color: #121212;
+}
+
+button {
+    border: 1px solid azure;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 3.5%;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(250, 235, 215, 1)
+}
+
+button:hover {
+    border: 1px dotted azure;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: large;
+    background-color:  rgba(250, 235, 215, 0.3);
+}
+
+#jellyfin {
+    font-weight: bold;
+    font-size: small;
+    background-color: rgba(250, 235, 215, 1);
+}
+
+#jellyfin:hover {
+    font-weight: bold;
+    font-size: small;
+    background-color: rgba(250, 235, 215, .3);
+}

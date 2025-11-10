@@ -126,6 +126,12 @@ button {
   width: 100%;
 }
 
+.container {
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+}
+
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
@@ -141,13 +147,13 @@ button:hover {
 /* Center the avatar image inside this container */
 .imgcontainer {
   text-align: center;
-  margin: 24px 0 12px 0;
+  margin: auto;
 }
 
 /* Avatar image */
 img.avatar {
-  width: 40%;
-  border-radius: 0%;
+  width: 20%;
+  border-radius: 50%;
 }
 
 /* The "Forgot password" text */

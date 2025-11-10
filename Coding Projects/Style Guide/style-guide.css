@@ -1,6 +1,5 @@
 html {
     background-color: rgb(224, 214, 236);
-    font-family: monospace;
 }
 
 ul {
@@ -20,6 +19,7 @@ ul li {
 ul li a {
     color: #fff;
     display: block;
+    font-family: monospace;
     font-weight: 500;
     text-decoration: none;
     padding: 14px 16px;

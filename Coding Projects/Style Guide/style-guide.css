@@ -2,7 +2,45 @@ html {
     background-color: rgb(224, 214, 236);
 }
 
+ul {
+  color: #fff;
+  list-style-type: none;
+  background-color: #282828;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 12px;
+}
+
+ul li a:hover {
+  background-color: #caa8f5;
+}
+
+ul li a:active {
+  background-color: #cb65fd;
+  font-weight: 900;
+}
+
+#back {
+    background-color: #282828;
+    border: #121212;
+    font-weight: bolder;
+    font-size: large;
+
+}
 .colorcontainer {
   padding: 10px;
   margin: 10px auto;

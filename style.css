@@ -101,7 +101,7 @@ input[type=text], input[type=password] {
     font-weight: 500;
     text-decoration: none;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     font-size: 12px;
     background-color: #3f3f3f;
     width: fit-content;
@@ -137,12 +137,6 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
 
 /* Center the avatar image inside this container */
 .imgcontainer {

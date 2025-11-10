@@ -2,7 +2,8 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: #707793;
+    background-color: #121212;
+    color: #fff;
     font-family: monospace;
 }
 
@@ -12,7 +13,7 @@ p.text {
 
 .indexh1 {
   font-size: medium;
-  color: #ccc;
+  color: #fff;
   margin: 20px;
   padding: 20px;
   line-height: normal;
@@ -21,9 +22,9 @@ p.text {
   font-size: larger;
 }
 
-#aboutme, .projects{
+#aboutme, .projects-h1{
   font-size: medium;
-  color: #ccc;
+  color: #fff;
   margin: 20px;
   padding: 20px;
   line-height: normal;
@@ -39,9 +40,12 @@ p.text {
   display: flex;
 }
 
+/* Nav */
+
 ul {
+  color: #fff;
   list-style-type: none;
-  background-color: #2e3047;
+  background-color: #282828;
   margin: 0;
   padding: 0;
   display: flex;
@@ -52,7 +56,7 @@ ul li {
 }
 
 ul li a {
-    color: #3bba9c;
+    color: #fff;
     display: block;
     font-weight: 500;
     text-decoration: none;
@@ -61,11 +65,11 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color:  rgba(0, 0, 0, 0.245);
+  background-color: #caa8f5;
 }
 
 ul li a:active {
-  background-color: rgba(0, 0, 0, 0.53);
+  background-color: #cb65fd;
   font-weight: 900;
 }
 
@@ -81,7 +85,7 @@ ul li a:active {
 
  /* Bordered form */
 form {
-  border: 3px solid #707793;
+  border: 3px solid #3f3f3f;
 }
 
 /* Full-width inputs */
@@ -94,9 +98,29 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+.projects {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    font-size: 12px;
+    background-color: #3f3f3f;
+    width: fit-content;
+  }
+
+  .projects:hover {
+    background-color: #282828;
+  }
+
+  .projects:active {
+    background-color: #121212;
+  }
+
 /* Set a style for all buttons */
 button {
-  background-color: #3bba9c;
+  background-color: #d278fe;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;

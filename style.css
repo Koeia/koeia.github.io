@@ -112,7 +112,7 @@ input[type=text], input[type=password] {
   }
 
   .projects:active {
-    background-color: #121212;
+    background-color: #cb65fd;
   }
 
 /* Set a style for all buttons */

@@ -1,0 +1,114 @@
+html {
+    background-color: rgb(224, 214, 236);
+}
+
+
+.colorcontainer {
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-self: center;
+  border: 1px solid rgb(175, 174, 160);
+}
+
+.fontcontainer {
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(175, 174, 160);
+    font-size: 15px;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+h2 {
+    margin: 10px auto;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+/* colors */
+
+.color {
+    display: inline-block;
+    justify-content: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: monospace;
+    width: 180px;
+    flex: auto;
+    height: 300px;
+    margin: 20px auto;
+    border: 2px solid transparent;
+}
+
+.hex {
+    text-transform: uppercase;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.heliotrope1 {
+    background-color: #cb65fd;
+}
+
+.heliotrope2 {
+    background-color: #d278fe;
+}
+
+.heliotrope3 {
+    background-color: #d98afe;
+}
+
+.night {
+    color: #fff;
+    background-color: #121212;
+}
+
+.raisin {
+    color: #fff;
+    background-color: #282828;
+}
+
+.onyx {
+    color: #fff;
+    background-color: #3f3f3f;
+}
+
+/* fonts */
+
+.monospace {
+    font-family: monospace;
+    padding: 20px;
+}
+
+.georgia {
+    font-family: Georgia;
+    padding: 20px;
+}
+
+.arial {
+    font-family: Arial;
+    padding: 20px
+}
+
+.fontname {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.underline {
+    text-decoration: underline;
+}

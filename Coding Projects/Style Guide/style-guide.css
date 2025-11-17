@@ -45,8 +45,13 @@ ul li a:active {
 .colorcontainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   border: 1px solid rgb(175, 174, 160);
   justify-content: center;
+  align-content: center;
+  min-height: 350px;
+  max-height: fit-content;
+  padding: 20px;
 }
 
 .fontcontainer {
@@ -75,7 +80,6 @@ h2 {
     width: 180px;
     height: 300px;
     border: 2px solid transparent;
-    margin: 15px 0px;
 }
 
 .hex {

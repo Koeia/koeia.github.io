@@ -43,20 +43,16 @@ ul li a:active {
 
 }
 .colorcontainer {
-  padding: 0px;
-  margin: 0px auto;
   display: flex;
-  justify-self: center;
   flex-wrap: wrap;
   border: 1px solid rgb(175, 174, 160);
+  justify-content: center;
 }
 
 .fontcontainer {
-    padding: 10px;
-    margin: 10px auto;
     display: flex;
-    justify-content: center;
     border: 1px solid rgb(175, 174, 160);
+    justify-content: center;
     font-size: 15px;
 }
 
@@ -73,15 +69,13 @@ h2 {
 /* colors */
 
 .color {
-    display: inline-block;
-    justify-content: center;
     text-transform: capitalize;
     text-align: center;
     font-family: monospace;
     width: 180px;
     height: 300px;
-    margin: 20px auto;
     border: 2px solid transparent;
+    margin: 15px 0px;
 }
 
 .hex {

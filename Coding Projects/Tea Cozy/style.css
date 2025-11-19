@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* Header */
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header {
+    display: inline-block;
+    z-index: 99;
+    height: 69px;
+    width: 100%;
+    position: sticky;
+    border-bottom: 1px solid seashell;
+}
+
+/* Navigation */
+
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: seashell;
+}

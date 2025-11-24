@@ -2,15 +2,18 @@
 /*General*/
 
 html, body{
-    margin: 0;
-    padding: 0;
-    background-color: #121212;
-    color: #fff;
-    font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  font-family: monospace;
 }
 
-p.text {
+.body p {
   font-size: x-large;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
 }
 
 .indexh1 {
@@ -24,25 +27,26 @@ p.text {
   font-size: larger;
 }
 
-#aboutme, .projects-h1{
-  font-size: medium;
-  color: #fff;
-  margin: 20px;
-  padding: 20px;
-  line-height: normal;
-  display: block;
+.body {
+  padding-top: 50px;
 }
 
-.indexgif {
+.body h1 {
+  text-align: center;
+}
+
+.gif {
   display: flex;
   justify-content: center;
 }
 
-#naga {
-  display: flex;
-}
-
 /* Nav */
+
+.navigation {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
 
 ul {
   color: #fff;
@@ -79,21 +83,7 @@ ul li a:active {
   font-weight: 900;
 }
 
-#back {
-    font-weight: bolder;
-    font-size: large;
-
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+/* Projects buttons */
 
 .projects {
     color: #fff;
@@ -114,6 +104,18 @@ input[type=text], input[type=password] {
   .projects:active {
     background-color: #cb65fd;
   }
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
 
 /* Set a style for all buttons */
 button {

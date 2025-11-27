@@ -46,8 +46,7 @@ main {
 
 nav {
   z-index: 1;
-  position: fixed;
-  background-color: #121212;
+  position: sticky;
   padding: 0px;
   margin: 0px;
   height: fit-content;

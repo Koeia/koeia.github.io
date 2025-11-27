@@ -15,7 +15,7 @@ html, body{
   "nav"
   "body"
   "footer";
-  grid-template-columns: 600px;
+  grid-template-columns: auto;
   grid-template-rows: 40px 50px 600px 200px;
   width: 100%;
   position: relative;

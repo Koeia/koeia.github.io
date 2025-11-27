@@ -15,7 +15,7 @@ html, body{
   "nav"
   "body"
   "footer";
-  grid-template-columns: 100%;
+  grid-template-columns: auto;
   grid-template-rows: 40px 50px 600px 200px;
   width: 100%;
   position: relative;
@@ -63,11 +63,20 @@ body h1 {
   padding-top: 50px;
 }
 
+header {
+  grid-area: header;
+  position: relative;
+  background-color: #121212;
+  width: 100%;
+  padding: 0px;
+  height:fit-content;
+  display: inline;
+}
+
 nav {
   grid-area: nav;
   position: fixed;
   background-color: #282828;
-  padding: 0px;
   height: fit-content;
   width: 100%;
   justify-self: center;
@@ -84,6 +93,8 @@ ul {
 ul li {
     float: left;
 }
+
+
 
 ul li a {
     color: #fff;

@@ -15,16 +15,13 @@ html, body{
   "nav"
   "body"
   "footer";
-  grid-template-columns: auto;
+  grid-template-columns: 600px;
   grid-template-rows: 40px 50px 600px 200px;
   width: 100%;
   position: relative;
   margin: auto;
 }
 
-body {
-  justify-items: stretch;
-}
 
 body p {
   font-size: x-large;
@@ -44,24 +41,13 @@ body p {
 }
 
 main {
-  justify-self: center;
-}
-
-
-body h1 {
+  z-index: 0;
+  justify-content: center;
+  padding-top: 50px;
   text-align: center;
 }
 
-.gif {
-  justify-self: center;
-  align-self: center;
-}
-
 /* Nav */
-
-.txt {
-  padding-top: 50px;
-}
 
 header {
   grid-area: header;
@@ -74,13 +60,12 @@ header {
 }
 
 nav {
-  grid-area: nav;
+  z-index: 1;
   position: fixed;
   background-color: #282828;
   height: fit-content;
   width: 100%;
-  justify-self: center;
-  align-items: stretch;
+  justify-content: center;
 }
 
 ul {
@@ -123,9 +108,6 @@ ul li a:active {
 }
 
 /* Projects buttons */
-.projectlinks {
-  padding-top: 100px;
-}
 
 .projects {
     color: #fff;
@@ -146,6 +128,7 @@ ul li a:active {
   .projects:active {
     background-color: #cb65fd;
   }
+
 
 
 /* Full-width inputs */

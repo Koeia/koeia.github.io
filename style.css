@@ -9,9 +9,24 @@ html, body{
   font-family: monospace;
 }
 
-.body p {
+.container {
+  display: grid;
+  grid-template-areas: "header"
+  "nav"
+  "body"
+  "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 40px 50px 600px 200px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+body {
+}
+
+body p {
   font-size: x-large;
-  padding: 20px;
   margin: 20px;
   text-align: center;
 }
@@ -27,25 +42,33 @@ html, body{
   font-size: larger;
 }
 
-.body {
-  padding-top: 50px;
+main {
+  justify-self: center;
 }
 
-.body h1 {
+
+body h1 {
   text-align: center;
 }
 
 .gif {
-  display: flex;
-  justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
 
 /* Nav */
 
-.navigation {
+.txt {
+  padding-top: 50px;
+}
+
+nav {
+  grid-area: nav;
   position: fixed;
+  padding: 0px;
   height: 50px;
   width: 100%;
+  justify-self: center;
 }
 
 ul {
@@ -83,7 +106,14 @@ ul li a:active {
   font-weight: 900;
 }
 
+.adminlog {
+  justify-content: end;
+}
+
 /* Projects buttons */
+.projectlinks {
+  padding-top: 100px;
+}
 
 .projects {
     color: #fff;

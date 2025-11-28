@@ -37,10 +37,17 @@ html{
 main {
   z-index: 0;
   grid-area: body;
+  width: 100vw;
   margin: 0px;
   padding-top: 50px;
   justify-content: center;
   text-align: center;
+}
+
+main p {
+  padding: 20px;
+  margin: 20px;
+  font-size:xx-large;
 }
 
 /* Nav */

@@ -16,7 +16,7 @@ html{
   "footer footer";
   grid-auto-flow: row;
   grid-template-columns: 100vw;
-  grid-template-rows: 50px 400px 200px;
+  grid-template-rows: 50px 700px 10vh;
   width: 100vw;
   position: relative;
   margin: 0px;
@@ -49,6 +49,16 @@ main p {
   margin: 20px;
   font-size:xx-large;
 }
+
+footer {
+    grid-area: footer;
+    padding-left: 20px;
+    padding-top: 50px;
+    color: #fff;
+    position: static;
+    justify-content: end;
+}
+
 
 /* Nav */
 
@@ -188,4 +198,4 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
-} 
+}

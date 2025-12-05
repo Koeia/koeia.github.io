@@ -16,8 +16,8 @@ html {
   display: grid;
   grid-template-areas: "nav" "body" "footer";
   justify-content: center;
-  grid-template-columns: 100vw;
-  grid-template-rows: 10vh 80vh 5vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 7vh 87vh 3vh;
   grid-area: 100%;
 }
 
@@ -28,10 +28,9 @@ nav {
   grid-area: nav;
   text-align:left;
   justify-self: center;
-  align-self: start;
   height: fit-content;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   background-color: #282828;
 }
 
@@ -103,6 +102,7 @@ footer {
     grid-area: footer;
     color: #fff;
     justify-self: center;
+    align-self: center; 
 }
 
 

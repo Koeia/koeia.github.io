@@ -17,7 +17,6 @@ html {
   grid-template-areas: "nav" "body" "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 7vh 87vh 3vh;
-  grid-area: auto;
 }
 
 /* Nav */
@@ -25,10 +24,11 @@ html {
 nav {
   grid-area: nav;
   text-align:left;
-  justify-self: center;
+  display: flex;
+  justify-self:center;
   height: fit-content;
+  width: 100%;
   position: fixed;
-  width: 100vw;
   background-color: #282828;
 }
 

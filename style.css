@@ -15,22 +15,20 @@ html {
 .container {
   display: grid;
   grid-template-areas: "nav" "body" "footer";
-  justify-content: center;
-  grid-template-columns: 100%;
+  grid-template-columns: 1fr;
   grid-template-rows: 7vh 87vh 3vh;
-  grid-area: 100%;
+  grid-area: auto;
 }
 
 /* Nav */
 
 nav {
-  z-index: 1;
   grid-area: nav;
   text-align:left;
   justify-self: center;
   height: fit-content;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   background-color: #282828;
 }
 
@@ -43,7 +41,6 @@ ul {
 
 ul li {
     float: left;
-    justify-content: left;
 }
 
 ul li a {

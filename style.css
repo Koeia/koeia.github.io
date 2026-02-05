@@ -13,23 +13,19 @@ html {
 }
 
 .container {
-  display: grid;
-  grid-template-areas: "nav" "body" "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 7vh 87vh 3vh;
+  display: flex;
 }
 
 /* Nav */
 
 nav {
-  grid-area: nav;
-  text-align:left;
+  text-align: left;
   display: flex;
   justify-self:center;
   height: fit-content;
   width: 100%;
   position: fixed;
-  background-color: #282828;
+  background-color:#282828;
 }
 
 ul {
@@ -71,7 +67,6 @@ ul li a:active {
 
 main {
   z-index: 0;
-  grid-area: body;
   width: 100vw;
   justify-self: center;
   text-align: center;

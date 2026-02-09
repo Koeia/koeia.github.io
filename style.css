@@ -12,10 +12,6 @@ html {
   background-color: #121212;
 }
 
-.container {
-  display: flex;
-}
-
 /* Nav */
 
 nav {
@@ -91,12 +87,16 @@ main p {
 
 
 footer {
-    grid-area: footer;
     color: #fff;
-    justify-self: center;
-    align-self: center; 
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
+footer a {
+  justify-content: center;
+}
 
 /* Projects buttons */
 

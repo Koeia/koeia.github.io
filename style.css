@@ -1,173 +1,173 @@
 /*General*/
 
 * {
-    color: #fff;
-    font-family: monospace;
-    margin: 0px;
-    padding: 0px;
+  color: #fff;
+  font-family: monospace;
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
-    background-color: #121212;
+  background-color: #121212;
 }
 
 /* Nav */
 
 nav {
-    text-align: left;
-    display: flex;
-    justify-self: center;
-    height: fit-content;
-    width: 100vw;
-    position: fixed;
-    background-color: #282828;
+  text-align: left;
+  display: flex;
+  justify-self: center;
+  height: fit-content;
+  width: 100vw;
+  position: fixed;
+  background-color: #282828;
 }
 
 ul {
-    color: #fff;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul li {
-    float: left;
+  float: left;
 }
 
 ul li a {
-    color: #fff;
-    font-weight: 500;
-    display: block;
-    text-decoration: none;
-    padding: 14px 16px;
-    font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 12px;
 }
 
 ul li a:hover {
-    background-color: #caa8f5;
+  background-color: #caa8f5;
 }
 
 ul li a:active {
-    background-color: #cb65fd;
-    font-weight: 900;
+  background-color: #cb65fd;
+  font-weight: 900;
 }
 
 .currenttab {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .adminlog {
-    justify-content: end;
+  justify-content: end;
 }
 
 main {
-    z-index: 0;
-    padding-top: 50px;
-    width: 100vw;
-    justify-self: center;
-    text-align: center;
+  z-index: 0;
+  padding-top: 50px;
+  width: 100vw;
+  justify-self: center;
+  text-align: center;
 }
 
 main p {
-    padding: 20px;
-    margin: 20px;
-    font-size: xx-large;
+  padding: 20px;
+  margin: 20px;
+  font-size: xx-large;
 }
 
 .indexh1 {
-    font-size: medium;
-    color: #fff;
-    margin: 20px;
-    padding: 20px;
-    line-height: normal;
-    display: block;
-    text-align: center;
-    font-size: larger;
+  font-size: medium;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  line-height: normal;
+  display: block;
+  text-align: center;
+  font-size: larger;
 }
 
 footer {
-    color: #fff;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    padding: 20px;
-    width: 100vw;
+  color: #fff;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  width: 100vw;
 }
 
 footer a {
-    justify-content: center;
+  justify-content: center;
 }
 
 /* Projects buttons */
 
 .projects {
-    color: #fff;
-    display: block;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 20px;
-    margin: 20px auto;
-    font-size: 12px;
-    background-color: #3f3f3f;
-    width: fit-content;
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 12px;
+  background-color: #3f3f3f;
+  width: fit-content;
 }
 
 .projects:hover {
-    background-color: #282828;
+  background-color: #282828;
 }
 
 .projects:active {
-    background-color: #cb65fd;
+  background-color: #cb65fd;
 }
 
 /* Set a style for all buttons */
 button {
-    background-color: #d278fe;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+  background-color: #d278fe;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 .container {
-    width: 300px;
-    margin: auto;
-    justify-content: center;
+  width: 300px;
+  margin: auto;
+  justify-content: center;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Center the avatar image inside this container */
 .imgcontainer {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 /* Avatar image */
 img.avatar {
-    width: 20%;
-    border-radius: 50%;
+  width: 20%;
+  border-radius: 50%;
 }
 
 /* The "Forgot password" text */
 span.psw {
-    float: right;
-    padding-top: 16px;
+  float: right;
+  padding-top: 16px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
+  span.psw {
+    display: block;
+    float: none;
+  }
 
-    .cancelbtn {
-        width: 100%;
-    }
+  .cancelbtn {
+    width: 100%;
+  }
 }
